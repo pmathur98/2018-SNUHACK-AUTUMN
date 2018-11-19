@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Autumn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--styles -->
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="masthead">
+        <button class="button" onclick="alert('Logged In! Order ID Generated.');placeOrder()" style="float:right;">Login</button>
+        <img src="img/dell.png" alt="DELL" style="float:left;width:50px;height:50px;text-shadow: 0px 0px 0px black;"><h3>Future Sales</h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="list.html">Products</a></li>
+				  </ul>
+				      </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Welcome</h1>
+        <p class="lead">Providing the best products and services since 34 years.</p>
+      </div>
+
+      <hr>
+      <!-- Example row of columns -->
+      <div class="row-fluid">
+        <ul class="thumbnails">
+          <li class="span4">
+            <div class="thumbnail">
+              <img alt="300x200" src="http://placehold.it/300x200">
+              <div class="caption">
+                <h3>Product A</h3>
+                <p>Laptop</p>
+                <p><select style="float:left;"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+                  <button onclick="placeOrder()" class="button">Buy Now</button>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="span4">
+            <div class="thumbnail">
+              <img alt="300x200" src="http://placehold.it/300x200">
+              <div class="caption">
+                <h3>Product B</h3>
+                <p>Laptop</p>
+                <p><select><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+                  <button onclick="placeOrder()" class="button">Buy Now</button>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="span4">
+            <div class="thumbnail">
+              <img alt="300x200" src="http://placehold.it/300x200">
+              <div class="caption">
+                <h3>Product C</h3>
+                <p>Laptop</p>
+                <p><select><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+                  <button class="button" onclick="placeOrder()">Buy Now</button>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <center><a class="button" href="list.html">Show All Products</a></center>
+      <hr>
+      <div class="footer">
+        <p>&copy; Autumn 2018</p>
+      </div>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
